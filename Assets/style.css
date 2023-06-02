@@ -1,3 +1,6 @@
+/* Edits as On 2-06-2023 */
+
+
 @font-face {
     font-family: 'Vola';
     src: url(./fonts/FontsFree-Net-VIOLA.ttf);
@@ -572,4 +575,86 @@ padding:5% 5%;
     display: flex;
     flex-direction: column;
 }
+}
+@media(max-width:540px){
+
+.name>h1{
+    font-size:55px
+}
+.name>.shubh {
+    width: 100%;
+   
+}
+.portfolioText>h2 {
+    font-size: 53px;
+    letter-spacing: 1px;
+    margin-top: -25%;
+}
+.whyTextAndImage{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+.whyText {
+    width: 100%;
+}
+.whyText h2 {
+    text-align: center;
+    font-size: 50px;
+}
+.boxes{
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+}
+.aboutmeContainer{
+    flex-direction: column-reverse;
+}
+.textPartHeading>h2{
+    font-size: 50px;
+}
+.rightBox{
+width: auto;
+}
+.leftBox{
+    width: auto;
+}
+.textPartHeading {
+    padding: 7% 16px 40px 16px;
+}
+.Done{
+    flex-direction: column;
+}
+.leftDone>h2 {
+    font-size: 50px;}
+    .leftDone {
+  
+        display: flex;
+        flex-direction: row;
+    padding-bottom: 10%;}
+    .c12>img {
+        width: 60px;
+    }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+.leText {
+    width: auto;
+}
+.readyHeading>h2 {
+    font-size: 50px;
+ }
+ .leImage{
+    width: auto;
+    justify-content: center;
+ }
+ .leImage>img {
+    width: 50%;
+}
+
+/* Edits as On 2-06-2023 */
+
+
+
 }
